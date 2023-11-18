@@ -5,7 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class ScanPage extends ConsumerWidget {
   const ScanPage({super.key});
-
+  static const path = '/scan';
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final devicesResult = ref.watch(bleScanProvider);
